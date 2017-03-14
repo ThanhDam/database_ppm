@@ -131,7 +131,7 @@ COLLATE = utf8_unicode_ci;
 -- -----------------------------------------------------
 -- Table `db_ppm`.`type-of-medicine`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `db_ppm`.`type-of-medicine` (
+CREATE TABLE IF NOT EXISTS `db_ppm`.`type_of_medicine` (
   `idType` INT(11) NOT NULL AUTO_INCREMENT,
   `typeName` VARCHAR(45) CHARACTER SET 'utf8' NOT NULL,
   PRIMARY KEY (`idType`))
@@ -267,7 +267,7 @@ INSERT INTO `history` (`id`,`idTreatment`,`dateTime`,`contentChange`) VALUES (1,
 
 
 /*
--- Query: SELECT * FROM db_ppm.`type-of-medicine`
+-- Query: SELECT * FROM db_ppm.`type_of_medicine`
 LIMIT 0, 1000
 
 -- Date: 2017-03-07 16:33
